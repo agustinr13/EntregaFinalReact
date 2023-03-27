@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# PROYECTO FINAL - REACT JS - CODERHOUSE
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+¡Bienvenido! Este proyecto simula una tienda virtual creada con React Js. Fue realizado para la entrega final del curso de React Js de CODERHOUSE.
 
-## Available Scripts
+![gif final](https://user-images.githubusercontent.com/113479367/228060240-1678c1e1-4ec6-4f19-8092-c6f1b317fbef.gif)
 
-In the project directory, you can run:
+En el enlace se puede ver un gif en el que se observa la funcionalidad de la aplicación.
 
-### `npm start`
+# Características
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+-Catálogo de productos generado a partir de una base de datos generada en Firestore
+-Filtrado por categoría
+-Acceso a sección de detalles por ID
+-Carrito de compras
+-Formulario de pago y subida de orden a Firestore
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Instalación
 
-### `npm test`
+-Clonar el repositorio
+-Instalar las dependencias mediante el comando "npm install"
+-Configutar
+-Inicializar con el comando "npm start"
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Uso de la app
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+-En la Landing Page encontrará un botón para acceder al catálogo de productos.
+-En la barra de navegación se puede acceder tanto al catálogo completo, asi como a el filtrado por categorías.
+-En el poducto deseado al presionar el botón de Detalles accederá a una tarjeta del producto.
+-Presionar "Agregar al carrito" en el producto deseado.
+-En la barra de navegación encontrará el ícono perteneciente al carrito. Para acceder, clickear en él.
+-En el carrito se desplegarán las tarjetas con los items agregados. Cada uno tiene un botón de eliminar.
+-Una vez elegidos los productos, verá en la parte inferior un formulario en el que deberá ingresar Nombre y Correo.
+-Al darle a comprar, saldrá una alerta de compra exitosa y se enviará la orden a Firestore.
